@@ -81,7 +81,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
         }
         
         case "secret": {
-            if (permssion != 3) return api.sendMessage(getText("notHavePermssion", "add"), threadID, messageID);
+            if (permssion != 2) return api.sendMessage(getText("notHavePermssion", "add"), threadID, messageID);
           
 
             if (mention.length != 0 && isNaN(content[0])) {
