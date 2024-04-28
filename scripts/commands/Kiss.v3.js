@@ -4,7 +4,7 @@
 */
 
 module.exports.config = {
-    name: "kissv3",
+    name: "kiss",
     version: "2.0.0",
     permssion: 2,
     credits: "Mohammad Nayan",
